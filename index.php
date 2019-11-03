@@ -1,5 +1,5 @@
-<?php include 'includes/_header.php'; ?>
+<?php include_once 'includes/_header.php'; ?>
         <div class="container-fluid">
-          <h1>Página de inicio</h1>
+          <h1>PÁGINA DE INICIO</h1>
         </div>
-<?php include 'includes/_footer.php'; ?>
+<?php include_once 'includes/_footer.php'; ?>

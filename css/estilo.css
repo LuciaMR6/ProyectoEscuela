@@ -32,6 +32,9 @@ body {
 
 #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
+    background-color: #3498DB;
+    color: white;
+    padding-right: 1px;
 }
 
 @media (min-width: 768px) {

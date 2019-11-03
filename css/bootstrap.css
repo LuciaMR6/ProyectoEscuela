@@ -627,6 +627,7 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
 .row {
@@ -11291,4 +11292,8 @@ a.list-group-item-danger.active:focus {
 
 .nav-item {
     color: #3498DB;
+}
+
+form {
+    place-content: center;
 }
