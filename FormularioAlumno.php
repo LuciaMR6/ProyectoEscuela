@@ -180,11 +180,11 @@
             </div>
         </div>
     </div>
-
-
-                <button type="submit" class="btn btn-primary">GUARDAR</button>
-                <button type="reset" class="btn btn-danger">CANCELAR</button>
+    <div class="opciones">
+            <button type="submit" class="btn btn-primary">GUARDAR</button>
+            <button type="reset" class="btn btn-danger">CANCELAR</button>
              <button type="button" class="btn btn-success" onclick="window.location.href = './listadoAlumno.php'">REGISTROS</button>
-      </form>
+    </div>
+    </form>
     </div>
 <?php include_once 'includes/_footer.php'; ?>

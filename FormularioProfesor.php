@@ -1,5 +1,7 @@
 <?php include_once 'includes/_header.php'; ?>
+
 <div class="titulo-principal"><h1>CARGAR NUEVO PROFESOR</h1></div>
+
 <?php
         if(isset($_GET["idProfesor"])) {
             $idProfesor =  $_GET["idProfesor"];

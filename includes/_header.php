@@ -22,7 +22,13 @@
           <a href="./FormularioProfesor.php" class="list-group-item list-group-item-action bg-light">Profesores</a>
           <a href="#" class="list-group-item list-group-item-action bg-light">Inscripciones</a>
           <a href="#" class="list-group-item list-group-item-action bg-light">Cobros</a>
-          <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+          <a class="nav-link dropdown-toggle list-group-item list-group-item-action bg-light" data-toggle="collapse" href="#collapseOptions" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="collapse" id="collapseOptions">
+              <div class="card card-body">
+                <a href="#" class="list-group-item list-group-item-action bg-light">Inscripciones</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light">Inscripciones</a>
+              </div>
+            </div>
         </div>
       </div>
       <!-- /#sidebar-wrapper -->
