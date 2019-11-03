@@ -23,7 +23,7 @@
     ?>
 
     <div class="container-fluid">
-        <form name="FormularioProfesor" action="guardar_profesor.php" method="POST">
+        <form id="formularios" name="FormularioProfesor" action="guardar_profesor.php" method="POST">
         <?php
                         if(isset($_GET["idProfesor"])) {
                             echo '<input type="hidden" class="form-control" name="idProfesor" value="'.$_GET["idProfesor"].'">';

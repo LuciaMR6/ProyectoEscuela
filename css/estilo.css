@@ -52,3 +52,7 @@ body {
         padding-right: 1px;
     }
 }
+
+#formulario {
+    text-justify: distribute;
+}
