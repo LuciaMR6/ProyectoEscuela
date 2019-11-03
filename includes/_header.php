@@ -23,7 +23,6 @@
           <a href="#" class="list-group-item list-group-item-action bg-light">Inscripciones</a>
           <a href="#" class="list-group-item list-group-item-action bg-light">Cobros</a>
           <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-          <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
         </div>
       </div>
       <!-- /#sidebar-wrapper -->

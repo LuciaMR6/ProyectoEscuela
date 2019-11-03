@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
+<?php include_once 'includes/_header.php'; ?>
 
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE-edge">
-<title></title>
-<meta name= "viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" mdeia="screen" href="css/bootstrap.css">
-    
-<head>
+<div class="titulo-principal"><h1>CARGAR NUEVO ALUMNO</h1></div>
 
-<body>
-<div class="wrapper">
-    
-</div>
-<h1>Alumno</h1>
 <?php
     if(isset($_GET["idAlumno"])) {
         $idAlumno =  $_GET["idAlumno"];
@@ -39,8 +26,8 @@
     };
 ?>
 
-<div class="container">
-<form name="FormularioAlumno" action="guardar_alumno.php" method="POST">
+<div class="container-fluid">
+<form id="formularios" name="FormularioAlumno" action="guardar_alumno.php" method="POST">
 <?php
                 if(isset($_GET["idAlumno"])) {
                     echo '<input type="hidden" class="form-control" name="idAlumno" value="'.$_GET["idAlumno"].'">';
@@ -200,6 +187,4 @@
              <button type="button" class="btn btn-success" onclick="window.location.href = './listadoAlumno.php'">REGISTROS</button>
       </form>
     </div>
-</body>
-
-</html>
+<?php include_once 'includes/_footer.php'; ?>

@@ -1,5 +1,5 @@
 <?php include_once 'includes/_header.php'; ?>
-<h1>CARGAR NUEVO PROFESOR</h1>
+<div class="titulo-principal"><h1>CARGAR NUEVO PROFESOR</h1></div>
 <?php
         if(isset($_GET["idProfesor"])) {
             $idProfesor =  $_GET["idProfesor"];
@@ -117,9 +117,11 @@
                 </div>
             </div>
         </div>
+            <div class="opciones">
                 <button type="submit" class="btn btn-primary">GUARDAR</button>
                 <button type="reset" class="btn btn-danger">CANCELAR</button>
                 <button type="button" class="btn btn-success" onclick="window.location.href = './listadoProfesores.php'">REGISTROS</button>
+            </div>
       </form>
     </div>
 

@@ -253,8 +253,8 @@ template {
 
 @media print {
     *,
-    ::after,
-    ::before,
+     ::after,
+     ::before,
     blockquote::first-letter,
     blockquote::first-line,
     div::first-letter,
@@ -327,7 +327,8 @@ html {
 ::after,
 ::before {
     -webkit-box-sizing: inherit;
-    box-sizing: inherit
+    box-sizing: inherit;
+    place-content: center;
 }
 
 @-ms-viewport {
@@ -849,7 +850,8 @@ pre code {
     margin-left: auto;
     margin-right: auto;
     padding-right: 15px;
-    padding-left: 15px
+    padding-left: 15px;
+    text-align: center;
 }
 
 @media (min-width:576px) {
